@@ -1,0 +1,56 @@
+{
+  "compilerOptions": {
+    "ignoreDeprecations": "6.0", 
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["./*"],
+      "@/components/*": ["components/*"],
+      "@/lib/*": ["lib/*"],
+      "@/backend/*": ["backend/*"],
+      "@/hooks/*": ["hooks/*"],
+      "@/app/*": ["app/*"]
+    },
+    "checkJs": true,
+    "allowJs": true,
+    "noEmit": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "target": "es6",
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "strictFunctionTypes": false,
+    "strictNullChecks": false,
+    "strictBindCallApply": false,
+    "strictPropertyInitialization": false,
+    "alwaysStrict": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noUncheckedIndexedAccess": false,
+    "exactOptionalPropertyTypes": false,
+    "useUnknownInCatchVariables": false
+  },
+  "typeAcquisition": {
+    "enable": true,
+    "include": [],
+    "exclude": ["@types/node"]
+  },
+  "include": [
+    "src/**/*",
+    "*.js",
+    "*.jsx",
+    "*.ts",
+    "*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next",
+    "dist"
+  ]
+}
