@@ -53,7 +53,7 @@ export default function TopNavbar({ onMenuClick }) {
             <span className={cn("text-3xl font-bold", inter.className)}>
               Agro
               {/* <GiHolosphere className="inline -ml-[1px] -mr-[1px] h-6 w-6 text-green-600 mx-0.5" /> */}
-              sphere
+              verse
             </span>
           </div>
         </div>
